@@ -6,4 +6,5 @@ def findBigNumbersCount(seq):
     return res
 
 seq = [int(i) for i in input().split()]
+
 print(findBigNumbersCount(seq))
