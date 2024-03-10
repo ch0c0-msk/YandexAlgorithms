@@ -27,7 +27,7 @@ def partition(list, l, r):
     pivotValue = list[random.randint(l, r)]
     
     n, e, g = l, l, l
-    while n < len(list):
+    while n <= r:
         if list[n] < pivotValue:
             temp = list[n]
             list[n] = list[g]
